@@ -5,7 +5,7 @@ def call() {
             stage('Git Checkout') {
                 steps {
                     script {
-                        git branch: 'main' url: 'https://github.com/rajansubramani/lib-refer.git'
+                        git branch: 'main', url: 'https://github.com/rajansubramani/lib-refer.git'
                     }
                 }
             }
